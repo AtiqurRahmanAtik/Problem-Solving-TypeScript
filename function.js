@@ -14,5 +14,8 @@ function printHello() {
     console.log('Hello!');
 }
 printHello();
-var nagateFuction = function (vla) { return vla * 3; };
-nagateFuction(100);
+var nagateFuction = function (val) { return val * 3; };
+console.log(nagateFuction(100));
+var nagateFuctions = function (vla) { return vla * 3; };
+var ress = nagateFuction(15);
+console.log(res);

@@ -31,8 +31,14 @@ printHello();
 
 type nage = (val:number)=> number;
 
-const nagateFuction:nage = (vla:number)=> vla * 3;
+const nagateFuction:nage = (val:number)=> val * 3;
 
 
-nagateFuction(100);
+console.log(nagateFuction(100));
 
+
+
+const nagateFuctions = (vla:number):number=>vla *3;
+
+const ress:number = nagateFuction(15);
+console.log(res);
