@@ -1,3 +1,4 @@
+{
 function add(num1:number, num2:number):number{
 
     const res:number = num1 + num2;
@@ -42,3 +43,14 @@ const nagateFuctions = (vla:number):number=>vla *3;
 
 const ress:number = nagateFuction(15);
 console.log(res);
+
+
+
+const arr:number[] = [25,16,7,9];
+
+const out:number[] = arr.concat([25,99]);
+
+console.log(arr);
+console.log('final out arr : ', out.sort((a:number,b:number):number=> a -b));
+
+}
