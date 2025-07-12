@@ -1,4 +1,4 @@
-
+{//
 // type UserInter ={
 //      // name : 'atik',
 //     name : string;
@@ -44,3 +44,29 @@ const nullish = null ;
 const userNull = nullish ?? 'nullish';
 
 console.log(userNull);
+
+
+
+interface ArrNum {
+   [index : number] : number
+}
+
+// type ArrNum = number[];
+
+const arrNum:ArrNum = [23,35, 5,9];
+
+console.log(arrNum);
+
+
+interface Add {
+
+    (a:number, b:number) : number
+}
+
+// type Add = (a:number , b:number)=>number;
+
+const add:Add = (a,b)=> a + b;
+
+console.log(add);
+//
+}
