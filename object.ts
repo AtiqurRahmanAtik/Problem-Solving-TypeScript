@@ -6,10 +6,23 @@ type Users = {
     info(): void;
 };
 
-const users:Users = {
+
+type Users2={
+    address:()=> void;
+    nam ?: string,
+}
+
+
+type Users3 = Users | Users2;
+
+const users: Users3 = {
     name : 'atik',
     age : 24,
-    address : 'rajshahi',
+    nam: 'rony',
+   
+    address : ()=>{
+        console.log('rony user');
+    },
     info(){
         console.log('function is Call ', this.address);
     }
@@ -19,3 +32,4 @@ const users:Users = {
 users.address =  'dhaka';
 
 console.log(users);
+
