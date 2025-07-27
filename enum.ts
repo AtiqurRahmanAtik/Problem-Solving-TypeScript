@@ -34,5 +34,34 @@ enum multi{
 console.log(multi)
 
 
+
+
+const a = 5;
+
+console.log(a);
+
+
+
+
+let i: number;
+
+for( i =0; i<10; i++){
+   if(i == 5){
+      break;
+   }
+
+   console.log(i);
+
+}
+
+
+
+
+
+
+
+
+
+
    //
  }

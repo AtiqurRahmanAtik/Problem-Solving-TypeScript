@@ -68,11 +68,25 @@
 
 
 
-    type GenericTuple<x,y> = [x,y];
+    type GenericTuple<x,y,a> = [x,y,a];
 
- const manus :GenericTuple<string,string> = ['atik', 'x- man'];
+ const manus :GenericTuple<string,string,number> = ['atik', 'x- man',4];
 
 console.log(manus);
+
+
+
+
+
+
+function summer<T,S>(a:T ,b:S){
+
+   console.log('atom here : ', a, b);
+}
+
+summer(15,5);
+summer('a',5);
+summer(true,5);
 
 
     //

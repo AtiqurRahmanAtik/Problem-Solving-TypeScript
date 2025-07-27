@@ -77,5 +77,50 @@ console.log(sumResult);
 
 
 
+ function summer(para:string[] | null){
+
+
+  if(typeof para == "object"){
+
+    para?.map((item)=> console.log(item));
+  }
+
+  else if(typeof para == 'string'){
+    
+      return para;
+
+  }
+
+  else{
+    console.log('null value');
+  }
+
+  
+ }
+
+
+
+let ocation:string[] = ['winter', 'rain'];
+
+let result = (summer(ocation));
+
+console.log(result)
+
+
+
+
+let sea:string;
+let sea1: typeof sea;
+
+sea1 = 'atik';
+
+console.log(sea1);
+
+
+
+
+
+
+
 
 

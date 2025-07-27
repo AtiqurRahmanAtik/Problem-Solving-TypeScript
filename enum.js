@@ -21,5 +21,20 @@
         multi[multi["age"] = 17] = "age";
     })(multi || (multi = {}));
     console.log(multi);
+    var a = 5;
+    console.log(a);
+    var i = void 0;
+    for (i = 0; i < 10; i++) {
+        if (i == 5) {
+            break;
+        }
+        console.log(i);
+    }
+    function summer(a, b) {
+        console.log('atom here : ', a, b);
+    }
+    summer(15, 5);
+    summer('a', 5);
+    summer(true, 5);
     //
 }
